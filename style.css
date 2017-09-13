@@ -1,0 +1,84 @@
+*,::before,::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-webkit-tap-highlight-color: none;
+}
+body {
+	color: #333;
+	font-family: "Microsoft YaHei",sans-serif;
+	font-size: 14px;
+}
+input,textarea {
+	border: none;
+	outline: none;
+	resize: none;
+	-webkit-appearance: none;
+}
+table {
+	border-collapse: collapse;
+}
+a {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #333333;
+}
+a:focus {
+	outline: none;
+}
+ul,ol {
+	list-style: none;
+}
+img {
+	border: 0;
+	vertical-align: middle;
+}
+em,i {
+	font-style: normal;
+}
+button {
+	cursor: pointer;
+}
+.clearfix:after {  
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden; 
+}
+.clearfix {
+	*zoom: 1;
+}
+.carousel {
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+.ul-img {
+	margin-left: -100%;
+}
+.ul-img li {
+	float: left;
+}
+.ul-point {
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+}
+.ul-point li {
+	width: 16px;
+	height: 16px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	margin-left: 10px;
+	float: left;
+	border-radius: 8px;
+}
+.ul-point li:first-child {
+	margin-left: 0;
+	background-color: #ffffff;
+}
